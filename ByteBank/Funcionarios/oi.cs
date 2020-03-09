@@ -8,5 +8,8 @@ namespace ByteBank.Funcionarios
 {
     class oi
     {
+
+        public int MyProperty { get; set; }
+
     }
 }
