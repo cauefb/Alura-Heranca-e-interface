@@ -23,6 +23,7 @@ namespace ByteBank
 
         public static void CalcularBonificacao()
         {
+            
             GerenciadorBonificacao gerenciadorBonificacao = new GerenciadorBonificacao();
 
             Designer pedro = new Designer("833.222.048-39");
@@ -37,7 +38,10 @@ namespace ByteBank
             GerenteDeConta camila = new GerenteDeConta("326.985.628-89");
             camila.Nome = "Camila";
 
-            gerenciadorBonificacao.Registrar(pedro);
+            Desenvolvedor caue = new Desenvolvedor("338.531.668.57");
+            caue.Nome = "Caue";
+
+            gerenciadorBonificacao.Registrar(caue);
             gerenciadorBonificacao.Registrar(roberta);
             gerenciadorBonificacao.Registrar(igor);
             gerenciadorBonificacao.Registrar(camila);
