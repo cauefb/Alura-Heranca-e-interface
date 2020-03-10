@@ -21,9 +21,14 @@ namespace ByteBank
 
         }
 
+        public static void Usarsistema()
+        {
+
+        }
+
         public static void CalcularBonificacao()
         {
-            
+
             GerenciadorBonificacao gerenciadorBonificacao = new GerenciadorBonificacao();
 
             Designer pedro = new Designer("833.222.048-39");
@@ -48,6 +53,9 @@ namespace ByteBank
 
             Console.WriteLine("Total de bonificações do mês " +
                 gerenciadorBonificacao.GetTotalBonificacao());
+
+
+            
         }
     }
 }
