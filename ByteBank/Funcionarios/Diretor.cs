@@ -9,7 +9,7 @@ namespace ByteBank.Funcionarios
 {
     public class Diretor : Autenticavel
     {
-        public string Senha { get; set; }
+   
         public Diretor(string cpf) : base(5000, cpf)
         {
             Console.WriteLine("Criando diretor");
