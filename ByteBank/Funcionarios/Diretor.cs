@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    public class Diretor : Autenticavel
+    public class Diretor :   FuncionarioAutenticavel
     {
-        public string Senha { get; set; }
+    
         public Diretor(string cpf) : base(5000, cpf)
         {
             Console.WriteLine("Criando diretor");
         }
-   
+      
         public override void AumentarSalario()
         {
             Salario *= 1.15;

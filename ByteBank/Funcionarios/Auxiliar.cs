@@ -8,7 +8,7 @@ namespace ByteBank.Funcionarios
 {
     class Auxiliar : Funcionario
     {
-        public Auxiliar (string cpf) : base(2000, cpf) { }
+        public Auxiliar ( string cpf) : base(2000, cpf) { }
 
         public override void AumentarSalario()
         {
